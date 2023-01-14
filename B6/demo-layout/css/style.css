@@ -9,7 +9,7 @@ body{
 #top{
     height: 100px; background-color: aqua;
     background: url('../img/banner-top.png');
-    background-size: cover;
+    background-size: cover; /*phóng ảnh to bằng khung div*/
 }
 #top img {
     height: 80px; margin-top: 10px;
@@ -17,14 +17,27 @@ body{
 
 /* Phần menu */
 #menu{
-    height: 40px;  background-color: bisque;
+     background-color: bisque;
+    text-align: center;  padding: 10px;
 }
+#menu a{ /*SV tự viết tiếp định dạng cho thẻ a */}
+
 /* phần nội dung */
 #content{
     min-height: 300px;  width: 800px;
     float: left;
     background-color: chartreuse;
 }
+
+#content p{
+    clear: both; margin-bottom: 10px;
+}
+
+#content p img{
+    width: 80px; float: left; margin-right: 10px;
+}
+.clr{ clear: both;}
+
 /* phần quảng cáo */
 #aside{
     min-height: 300px;  background-color: yellow;
