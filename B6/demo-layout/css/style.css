@@ -1,0 +1,32 @@
+#page{
+    width: 1000px;  margin: auto; 
+    min-height: 500px; background-color: #fff;
+}
+body{
+    background-color: #ccc; margin: 0px; padding: 0px;
+}
+/* Banner đầu trang */
+#top{
+    height: 100px; background-color: aqua;
+}
+/* Phần menu */
+#menu{
+    height: 40px;  background-color: bisque;
+}
+/* phần nội dung */
+#content{
+    min-height: 300px;  width: 800px;
+    float: left;
+    background-color: chartreuse;
+}
+/* phần quảng cáo */
+#aside{
+    min-height: 300px;  background-color: yellow;
+    width: 200px;       float: left;
+}
+/* Phần cuối trang */
+#footer-page{
+    clear: both;
+    height: 80px;   background-color: blueviolet;
+    color: #fff;
+}
