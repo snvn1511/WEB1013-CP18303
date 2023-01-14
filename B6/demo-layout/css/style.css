@@ -8,7 +8,13 @@ body{
 /* Banner đầu trang */
 #top{
     height: 100px; background-color: aqua;
+    background: url('../img/banner-top.png');
+    background-size: cover;
 }
+#top img {
+    height: 80px; margin-top: 10px;
+}
+
 /* Phần menu */
 #menu{
     height: 40px;  background-color: bisque;
