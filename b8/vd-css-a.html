@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{  
+            /* Thiết lập mặc định cho thẻ a */
+            font-size: 20px;
+            text-decoration: none; /*bỏ gạch chân*/
+            color: green;  
+            padding: 10px; /*Khoảng cách bên trong khối*/
+            display: inline-block; /*Chuyển thành khối trên dòng*/
+        }
+        a:visited {
+            /* trạng thái link đã được bấm xem ít nhất 1 lần*/
+            color: #ccc;
+        }
+
+        a:hover {
+            /* Trạng thái đưa chuột vào link nhưng chưa bấm chuột */
+            color: red;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:active{
+            /* Trạng thái khi bấm chuột mà chưa thả chuột */
+            background-color: pink;
+            border: 1px solid blue;
+            
+        }
+
+    </style>
+
+</head>
+<body id="dau-trang">
+    
+    <a href="https://lms.poly.edu.vn" > Xem trang LMS</a> <br>
+    <a href="https://zezo.dev">Học tập</a> <br>
+    <a href="https://abc.com">Trang gì đó</a> 
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <a href="#dau-trang">Về đầu trang</a>
+</body>
+</html>
