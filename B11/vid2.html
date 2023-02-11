@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+        label{display: block; margin: 10px 0px;}
+    </style>
+</head>
+<body>
+    
+    <h1>Thực hành form</h1>
+    <form action="">
+
+        <label>Dùng thẻ textarea</label>
+        <textarea cols="20" rows="10" name="ghichu" placeholder="Nhập ghi chú"></textarea>
+        <label>Thẻ select combobox</label>
+
+        <select name="khoa_hoc">
+            <option value="toan">Toán học</option>
+            <option value="tin" selected >Tin học</option>
+        </select>
+
+        <label> Sở thích</label>
+        <select name="so_thich" multiple>
+            <option  value="bong_da">Bóng đá</option>
+            <option value="bong_ban">Bóng bàn</option>
+            <option value="cau_long">Cầu lông</option>
+        </select>
+        <input type="submit" value="Gửi" />
+
+        <hr>
+
+        <button type="button" onclick="alert('Xin chào')">Nút bấm thường</button>
+        <button type="submit" disabled>Nút bấm đã bị vô hiệu hóa</button>
+
+        <label>Nhập Email</label>
+        <input type="email" name="email" placeholder="Hãy nhập email" />
+        
+        <label>Chọn màu sắc yêu thích</label>
+        <input type="color" name="mau_sac" />
+    </form>
+    
+
+</body>
+</html>

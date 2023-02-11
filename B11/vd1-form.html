@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #frm_reg{ max-width: 400px; margin: auto; border: 1px solid #ccc;
+                padding: 20px;
+        }
+        h1{ text-align: center;}
+        #frm_reg label{  display: block; margin: 10px 0px;}
+        #frm_reg input{ padding: 10px;}
+        #frm_reg input[type=text], #frm_reg input[type=password]{ 
+             background-color: aqua; 
+             width: 380px; 
+             border-radius: 5px;
+             border: 1px solid #ccc;
+            }
+    </style>
+</head>
+<body>
+    <h1>Đăng ký thành viên</h1>
+    <form id="frm_reg" action="http://vnexpress.net" method="get">
+        <label>Họ tên</label>
+        <input type="text" name="txt_hoten" placeholder="Hãy nhập đầy đủ" />
+
+        <label>Username</label>
+        <input type="text" name="txt_username" placeholder="Nhập không dấu, không cách" />
+
+        <label>Password</label>
+        <input type="password" name="txt_password" placeholder="Nhập ít nhất 6 ký tự" />
+        
+        <label>Ảnh đại diện</label>
+        <input type="file" name="anh" />
+        
+        <label>Giới tính</label>
+        <label><input type="radio" name="rd_gioitinh" value="0"/> Nam    </label>
+        <label><input type="radio" name="rd_gioitinh" value="1" checked > Nữ   </label>
+
+        
+        <label></label> 
+        <input type="submit" value="Đăng ký" />
+        <input type="reset" value="Nhập lại" />
+    </form>
+
+</body>
+</html>
